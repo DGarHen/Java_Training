@@ -3,5 +3,6 @@ This Repository store all exercises done to learn java basics, lambda and stream
 
 future additions:
 1. Compare Primitive VS References Types
-2. Polymorphism
-list of exercises
+2. Polymorphism - Inheritance - Abstract Class - Overwrite - Overloading
+3. 
+
