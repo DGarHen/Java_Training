@@ -1,4 +1,4 @@
-package com.trainning.java.polymorphism;
+package com.trainning.java.basic.polymorphism;
 
 public class PolyOverloading {
     public int calculateArea(int l){
