@@ -2,7 +2,7 @@ package com.trainning.java;
 
 import java.util.Arrays;
 
-public class Basics {
+public class BasicsTypes {
     public static void main(String[] args) {
         comparePrimitiveVSReferenceType();
     }
