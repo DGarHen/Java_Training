@@ -1,16 +1,16 @@
 package com.training.java.basic.inheritance;
 
-public class Dog extends Animal implements Training{
-    public Dog(String name) {
+public class Pig extends Animal implements Training{
+    public Pig(String name) {
         super(name);
     }
     @Override
     public void makeSound() {
-        System.out.println("Barking");
+        System.out.println("Grunting");
     }
     @Override
     public void giveHand() {
-        System.out.println("-"+getName()+" gives its hand");
+        System.out.println("-"+getName()+" can't give its hand");
     }
     @Override
     public void sit() {

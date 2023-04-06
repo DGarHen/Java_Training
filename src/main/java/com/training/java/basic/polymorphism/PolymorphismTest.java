@@ -1,13 +1,19 @@
 package com.training.java.basic.polymorphism;
 
-import com.training.java.basic.inheritance.Animal;
-import com.training.java.basic.inheritance.Cat;
-import com.training.java.basic.inheritance.Dog;
+import com.training.java.basic.inheritance.*;
 
 public class PolymorphismTest {
     public static void main(String[] args) {
         polymorphismCompileTime();
         pets();
+        trainingPets();
+    }
+    private static void trainingPets() {
+        Dog tasha = new Dog("Tasha");
+        Cat michi = new Cat("Michi");
+        Pig brave = new Pig("Brave");
+        doSomeTricks(tasha);
+        doSomeTricks(brave);
     }
     private static void polymorphismCompileTime(){
         PolyOverloading figure = new PolyOverloading();
@@ -17,15 +23,20 @@ public class PolymorphismTest {
         System.out.println("Using float calculate the area of a square: "+figure.calculateArea(9.0f));
     }
     private static void pets(){
-        Dog tasha = new Dog();
-        Cat michi = new Cat();
+        Dog tasha = new Dog("Tasha");
+        Cat michi = new Cat("Michi");
         takeAWalk(tasha);
         takeAWalk(michi);
     }
     private static void takeAWalk(Animal pet){
-        System.out.println("Let's take a walk?");
+        System.out.println("Let's go, "+pet.getName()+", take a walk?");
         pet.makeSound();
         pet.move();
+    }
+    private static void doSomeTricks(Training trained_pet){
+        trained_pet.sit();
+        trained_pet.stay();
+        trained_pet.giveHand();
     }
 
 }
