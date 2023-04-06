@@ -1,8 +1,8 @@
-package com.trainning.java.basic.polymorphism;
+package com.training.java.basic.polymorphism;
 
-import com.trainning.java.basic.inheritance.Animal;
-import com.trainning.java.basic.inheritance.Cat;
-import com.trainning.java.basic.inheritance.Dog;
+import com.training.java.basic.inheritance.Animal;
+import com.training.java.basic.inheritance.Cat;
+import com.training.java.basic.inheritance.Dog;
 
 public class PolymorphismTest {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class PolymorphismTest {
         pets();
     }
     private static void polymorphismCompileTime(){
-        com.trainning.java.basic.polymorphism.PolyOverloading figure = new com.trainning.java.basic.polymorphism.PolyOverloading();
+        PolyOverloading figure = new PolyOverloading();
         System.out.println("Using int calculate the area of a square: "+figure.calculateArea(5));
         System.out.println("Using 2 params calculate the area of a rectangle: "+figure.calculateArea(5,4));
         System.out.println("Using double calculate the area of a circle: "+figure.calculateArea(9.0));

@@ -1,4 +1,4 @@
-package com.trainning.java.basic;
+package com.training.java.basic;
 
 import java.util.Arrays;
 

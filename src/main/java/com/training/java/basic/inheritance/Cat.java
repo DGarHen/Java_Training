@@ -1,4 +1,4 @@
-package com.trainning.java.basic.inheritance;
+package com.training.java.basic.inheritance;
 
 public class Cat extends Animal{
     @Override

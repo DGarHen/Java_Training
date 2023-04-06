@@ -1,6 +1,6 @@
-package com.trainning.java.basic.inheritance;
+package com.training.java.basic.inheritance;
 
-public class Animal {
+public abstract class Animal {
     public void makeSound(){
         System.out.println("Sound of the wild");
     }
